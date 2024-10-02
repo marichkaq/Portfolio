@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #1f550d;
+}
+
+.star {
+    height: 100px;
+    width: 100px;
+    background: white;
+    mask: radial-gradient(#0000 71%, #000 72%) 10000% 10000%/99.5% 99.5%;
+}
+
+h1 {
+    margin-top: 10%;
+    margin-bottom: 8%;
+    font-size: 150px;
+    text-shadow: rgba(31, 85, 13, 100);
+    color: #e4ffd4;
+    position: relative;
+    left: 40%;
+    font-weight: normal;
+}
+
+p {
+    font-size: 24px;
+}
+
+.green-text{
+    color: #e4ffd4;
+}
+
+.yellow-text {
+    color: #ffd964;
+}
+
+header > img {
+
+}
+
+.inline-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 138px;
+    text-align: center;
+}
+
+.inline-section p, .inline-section div {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+
+.inline-section div {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h2 {
+    font-size: 120px;
+    text-shadow: 4px 4px rgba(31, 85, 13, 20);
+    color: #e4ffd4;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: normal;
+}
+
+#about-me > h2 {
+    position: relative;
+    left: 8%;
+    margin-top: 6%;
+}
+
+#about-me > .star {
+    position: relative;
+    left: 8%;
+}
+
+#about-me > img {
+    width: 450px;
+    position: absolute;
+    left: 25%;
+    top: 103%;
+    z-index: -1;
+}
+
+#about-me > .yellow-text {
+    position: absolute;
+    top: 132%;
+    left: 66%;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 60px 80px;
+}
+
+#about-me > .green-text {
+    margin-top: 30px;
+    position: absolute;
+    left: 60%;
+    top: 155%;
+    padding-right: 10%;
+}
+
+#about-me {
+    scroll-margin-top: 90px;
+}
+
+#hard-skills {
+    scroll-margin-top: -170px;
+}
+
+#hard-skills, #soft-skills {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#hard-skills > h2 {
+    margin-top: 14%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.skill-group {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 35px 60px;
+    color: #ffd964;
+    width: 300px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill-list > p {
+    color: #e4ffd4;
+    font-size: 24px;
+    margin: 20px 0;
+    max-width: 300px;
+}
+
+#hard-skills > .star {
+    position: relative;
+    left: 90%;
+}
+
+#soft-skills > h2 {
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+#soft-skills > .skill-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+#projects > h2 {
+    text-align: right;
+    padding-right: 10%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+h3 {
+    font-size: 36px;
+    margin-top: 5%;
+    margin-bottom: 50px;
+}
+
+.h3-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-details > p {
+    margin-bottom: 20px;
+}
+
+.project-details >  ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.project-details > li {
+    padding: 15px 0;
+}
+
+#projects a {
+    color: #ffd964;
+    text-decoration: underline;
+}
+
+#projects a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+}
+
+#projects {
+    padding: 50px 0;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 5%;
+    margin-bottom: 60px;
+}
+
+.project-details {
+    max-width: 40%;
+    padding-left: 20px;
+}
+
+.project-container video {
+    margin-top: 180px;
+    padding-right: 20px;
+}
+
+#zip-analyser > .project-details {
+    max-width: 80%;
+}
+
+#mini-projects h2{
+    font-size: 60px;
+    margin: 0;
+}
+
+#mini-projects {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    gap: 20px;
+}
+
+.project-column {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 22%;
+}
+
+.project-column h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#mini-projects > .star {
+    margin: 3% auto;
+}
+
+#certifications h2 {
+    color: #ffd964;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+
+#certifications .h2-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    width: 100%;
+}
+
+.h2-container .star {
+    margin-right: 10%;
+}
+
+#certifications-container {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#certifications-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#certifications-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#certifications-container img:active {
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #222;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#contact-container {
+    display: flex;
+    justify-content: left;
+    gap: 20%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#contact-container h2 {
+    margin: 5% 0;
+    margin-left: 15%;
+}
+
+#contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contacts p {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: left;
+    color: #e4ffd4;
+}
+
+#contacts i {
+    margin-right: 10px;
+}
+
+#contacts a {
+    color: #e4ffd4;
+}
+
+#quick-links {
+    margin-bottom: 30px;
+}
+
+#quick-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#quick-links ul li {
+    font-size: 22px;
+}
+
+#quick-links ul li a {
+    color: #1f550d;
+    text-decoration: none;
+}
+
+#quick-links ul li a:hover {
+    color: #e4ffd4;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+i {
+    color: #ffd964;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

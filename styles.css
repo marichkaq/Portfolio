@@ -14,17 +14,17 @@ body {
 h1 {
     margin-top: 9.5%;
     margin-bottom: 8%;
-    font-size: 150px;
+    font-size: 130px;
     text-shadow: 5px 5px rgba(31, 85, 13, 2);
     color: #e4ffd4;
     position: relative;
     z-index: 1;
     font-weight: normal;
-    right: 13%
+    right: 20%
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .green-text{
@@ -50,14 +50,14 @@ header {
 .header-img {
     z-index: 0;
     margin-top: 9%;
-    margin-left: -84%;
+    margin-left: -94%;
 }
 
 .inline-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 138px;
+    height: 120px;
     text-align: center;
     position: relative;
 }
@@ -86,7 +86,7 @@ header {
 }
 
 h2 {
-    font-size: 120px;
+    font-size: 96px;
     text-shadow: 4px 4px rgba(31, 85, 13, 2);
     color: #e4ffd4;
     margin-top: 4%;
@@ -96,7 +96,7 @@ h2 {
 
 #about-me > h2 {
     z-index: 1;
-    margin-right: -100px;
+    margin-right: -130px;
 }
 
 #about-me > .star {
@@ -105,10 +105,10 @@ h2 {
 }
 
 #photo {
-    width: 380px;
+    width: 304px;
     height: auto;
     z-index: -1;
-    margin-left: -90px;
+    margin-left: -80px;
     margin-top: 55px;
 }
 
@@ -118,7 +118,7 @@ h2 {
     right: 17%;
     border: 2px solid white;
     border-radius: 50%;
-    padding: 60px 80px;
+    padding: 58px 77px;
     text-align: center;
 }
 
@@ -126,7 +126,7 @@ h2 {
     position: absolute;
     top: 65%;
     right: 10.5%;
-    width: 500px;
+    width: 400px;
     text-align: left;
     margin-top: 40px;
 }
@@ -177,7 +177,7 @@ h2 {
 }
 
 .skill-title {
-    font-size: 24px;
+    font-size: 20px;
     border: 2px solid white;
     border-radius: 50%;
     padding: 35px 60px;
@@ -189,7 +189,7 @@ h2 {
 
 .skill-list > p {
     color: #e4ffd4;
-    font-size: 24px;
+    font-size: 20px;
     margin: 20px 0;
     max-width: 300px;
 }
@@ -236,7 +236,7 @@ h3 {
 .project-details >  ul {
     padding-left: 20px;
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .project-details > li {
@@ -329,7 +329,7 @@ h3 {
 }
 
 .project-column h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -409,7 +409,7 @@ footer {
 }
 
 #contacts p {
-    font-size: 24px;
+    font-size: 20px;
     margin: 10px 0;
     text-align: left;
     color: #e4ffd4;
@@ -437,7 +437,7 @@ footer {
 }
 
 #quick-links ul li {
-    font-size: 22px;
+    font-size: 18px;
 }
 
 #quick-links ul li a {
